@@ -11,7 +11,10 @@ class TodosController {
                 this.todos = todos;
             });
     }
-    private addNewTask = function() {
+    private addNewTask = () => {
+        if (this.newTask == '') {
+            return;
+        }
         let obj = {
             "task": this.newTask,
             "isDone": false
