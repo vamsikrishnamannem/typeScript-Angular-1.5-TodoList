@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
+
+    <script src="https://code.angularjs.org/tools/system.js"></script>
+    <script src="https://code.angularjs.org/tools/typescript.js"></script>
+    <script src="config.js"></script>
+    <script>
+        System.import("app")
+            .catch(console.error.bind(console));
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <todos-component></todos-component>
+    </div>
+</body>
+
+</html>

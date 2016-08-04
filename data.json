@@ -1,0 +1,10 @@
+[{
+    "task": "meeting",
+    "isDone": true
+}, {
+    "task": "Learn type script",
+    "isDone": false
+}, {
+    "task": "Meet a friend",
+    "isDone": true
+}]
